@@ -1,0 +1,123 @@
+@import url(Reset.css);
+
+* {
+    font-family: Arial, sans-serif;
+}
+
+.prmtn_container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.prmtnImg {
+    flex: 1;
+    height: 100%;
+    background-image: url(https://i.hizliresim.com/4g752eo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.prmtn_content h1{
+    font-size: 3em;
+    padding-bottom: 20px;
+}
+
+
+.prmtn_content p{
+    font-size: 1em;
+    padding-bottom: 20px;
+}
+
+.prmtn_content {
+    flex: 1;
+    padding: 20px;
+    color: #fff;
+}
+
+.post-title {
+    font-weight: 700;
+    color: black;
+    top: 485px;
+    position: absolute;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.post-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container {
+    display: inline-block;
+    margin: 0 auto;
+    width: 250px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.post-box {
+    margin-bottom: 20px;
+}
+
+.post-img img {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.header {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.post-content {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.see-more {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border: 0;
+}
+
+.see-more:hover {
+    background-color: #0062cc;
+}
+
+.fa-chevron-left,
+.fa-chevron-right {
+    color: #007bff;
+    margin: 0 10px;
+}
+
+footer img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
