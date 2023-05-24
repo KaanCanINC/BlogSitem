@@ -4,13 +4,13 @@
     font-family: Arial, sans-serif;
 }
 
-body{
+body {
 
 }
 
-.divider{
-  height: 5px;
-  width: 100%;
+.divider {
+    height: 5px;
+    width: 100%;
 }
 
 .prmtn_container {
@@ -30,13 +30,13 @@ body{
     background-size: cover;
 }
 
-.prmtn_content h1{
+.prmtn_content h1 {
     font-size: 3em;
     padding-bottom: 20px;
 }
 
 
-.prmtn_content p{
+.prmtn_content p {
     font-size: 1em;
     padding-bottom: 20px;
 }
@@ -60,7 +60,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 .container {
@@ -125,8 +125,153 @@ body{
     margin: 0 10px;
 }
 
-footer img {
+footer {
+    margin-top: 20px;
+    background-color: black;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerIMG {
     width: 250px;
     height: 250px;
-    border-radius: 50%;
+}
+
+.textContent {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textMobile {
+    display: none;
+}
+
+.text,
+.textMobile {
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+}
+
+.form-container {
+    margin-left: auto;
+    max-width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: #fff;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #5e0837;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.socialMedia {
+    margin-top: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.socialMedia a {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.socialMedia a:hover {
+    color: #8f00f5;
+}
+
+@media (max-width: 768px) {
+    .bio {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .bioPhoto,
+    img {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-left: calc(100% - 80%);
+    }
+
+    .bioContent {
+        padding-top: 250px; /* Yükseklik, bioPhoto'nun yüksekliği kadar olmalı */
+    }
+
+    .pricing {
+        flex-wrap: wrap;
+    }
+
+    .price-card {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .textMobile {
+        display: block;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .form-container {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .socialMedia {
+        margin-top: 50px;
+        letter-spacing: 2px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .socialMedia a {
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+
+    .textContent {
+        margin: 20px 0;
+    }
+
+    .footerIMG {
+        display: none;
+    }
 }

@@ -1,295 +1,198 @@
 * {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
-body{
-  background: black;
-
+body {
+    background: black;
 }
 
 .bioPhoto,
 img {
-  width: 250px;
-  height: 250px;
+    width: 250px;
+    height: 250px;
 }
 
 .bio {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 550px;
-  background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 1);
 }
 
 .bioPhoto {
-  flex: 1;
-  height: 100%;
-  background-image: url(https://i.hizliresim.com/4g752eo.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+    flex: 1;
+    height: 100%;
+    background-image: url(https://i.hizliresim.com/4g752eo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .bioContent {
-  flex: 1;
-  padding: 20px;
-  color: #fff;
+    flex: 1;
+    padding: 20px;
+    color: #fff;
 }
 
+.cv {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+}
+
+.cv h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cv-content {
+    margin-top: 20px;
+}
+
+.cv-content h3 {
+    margin-bottom: 10px;
+}
+
+.cv-content p {
+    margin-bottom: 5px;
+}
+
+.cv-content ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.cv-content ul li {
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.cv-content ul li a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.cv-content ul li a:hover {
+    text-decoration: underline;
+}
+
+.cv-content ul li:before {
+    content: "\2022";
+    color: #ffd700;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+
 #services {
-  background-color: rgba(0, 0, 0, 1);
-  padding: 50px 0;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 50px 0;
 }
 
 .divider {
-  height: 5px;
-  width: 100%;
-  background: rgba(255, 255, 255, 0.5);
+    height: 5px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.5);
 }
 
 .price-card > ul > li {
-  color: #fff;
+    color: #fff;
 }
 
 .pricing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .price-card {
-  background-color: rgba(0, 0, 0, 1);
-  color: #fff;
-  border: 1px solid #ddd;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  width: 300px;
-  height: 400px;
-  text-align: center;
-  padding: 30px;
-  margin: 20px;
-  transition: all 0.3s ease-in-out;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    padding: 30px;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
 }
 
 .price-card:hover {
-  transform: scale(1.05);
+    transform: scale(1.05);
 }
 
 .featured {
-  border: 2px solid #ffd700;
+    border: 2px solid #ffd700;
 }
 
 .pricing-name {
-  font-size: 24px;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: 0;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0;
 }
 
 .pricing-name-featured {
-  font-size: 24px;
-  font-weight: 600;
-  text-transform: uppercase;
-  margin-top: 0;
-  color: #ffd700;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0;
+    color: #ffd700;
 }
 
 .price {
-  font-size: 50px;
-  margin: 30px 0;
+    font-size: 50px;
+    margin: 30px 0;
 }
 
 .currency {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .amount {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 .frequency {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .price-card ul {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px;
-  display: flex;
-  flex-direction: column;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .price-card li {
-  margin-bottom: 10px;
-  color: black;
+    margin-bottom: 10px;
+    color: black;
 }
 
 .price-card.featured button {
-  background-color: #ffd700;
+    background-color: #ffd700;
 }
 
 .price-card button {
-  background-color: #337ab7;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  font-size: 18px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 
 .price-card button:hover {
-  background-color: #23527c;
-  transform: scale(1.1);
+    background-color: #23527c;
+    transform: scale(1.1);
 }
 
-footer {
-  background-color: black;
-  padding: 20px;
-}
 
-.footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footerIMG {
-  width: 250px;
-  height: 250px;
-}
-
-.textContent {
-  text-align: center;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.textMobile {
-  display: none;
-}
-
-.text,
-.textMobile {
-  font-weight: 700;
-  font-size: 20px;
-  color: white;
-}
-
-.form-container {
-  margin-left: auto;
-  max-width: 300px;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
-  color: white;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-  background-color: #fff;
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-button[type="submit"] {
-  background-color: #5e0837;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  cursor: pointer;
-}
-
-.socialMedia {
-  margin-top: auto;
-  display: flex;
-  justify-content: flex-start;
-}
-
-.socialMedia a {
-  display: inline-block;
-  margin-right: 10px;
-  color: white;
-  font-size: 20px;
-}
-
-.socialMedia a:hover {
-  color: #4caf50;
-}
-
-@media (max-width: 768px) {
-  .bio {
-    flex-direction: column;
-    height: auto;
-    padding: 20px;
-  }
-
-  .bioPhoto,
-  img {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: calc(100% - 80%);
-  }
-
-  .bioContent {
-    padding-top: 250px; /* Yükseklik, bioPhoto'nun yüksekliği kadar olmalı */
-  }
-
-  .pricing {
-    flex-wrap: wrap;
-  }
-
-  .price-card {
-    width: 100%;
-    margin: 10px;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .textMobile {
-    display: block;
-  }
-
-  .text {
-    display: none;
-  }
-
-  .form-container {
-    margin-left: 0;
-    max-width: 100%;
-  }
-
-  .socialMedia {
-    margin-top: 50px;
-    letter-spacing: 2px;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .socialMedia a {
-    margin-right: 5px;
-    margin-bottom: 10px;
-  }
-
-  .textContent {
-    margin: 20px 0;
-  }
-
-  .footerIMG {
-    margin-bottom: 20px;
-  }
-}
